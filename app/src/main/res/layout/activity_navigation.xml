@@ -39,41 +39,6 @@
                 android:textSize="bold"/>
         </LinearLayout>
 
-        <!--Adding the hamburger icon and page title-->
-        <ImageButton
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:id="@+id/menuButton"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@android:color/transparent"
-            android:src="@drawable/menu"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/pageTitle"
-            android:text="Book a Room"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_marginStart="16dp"
-            app:layout_constraintStart_toEndOf="@id/menuButton"
-            app:layout_constraintTop_toTopOf="'id/menuButton"
-            app:layout_constraintBaseline_toBottomOf="@id/menuButton"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/pageTitle"
-            android:text="View Booked Rooms"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_marginStart="16dp"
-            app:layout_constraintStart_toEndOf="@id/menuButton"
-            app:layout_constraintTop_toTopOf="'id/menuButton"
-            app:layout_constraintBaseline_toBottomOf="@id/menuButton"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
