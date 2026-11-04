@@ -10,7 +10,7 @@
     <!--Navigation-->
     <include
         android:id="@+id/topBar"
-        layout="@layout/top_bar"/>
+        layout="@layout/top_bar_view_bookings"/>
 
     <!--Date Filter-->
     <Button
