@@ -10,7 +10,7 @@
     <!--Add navigation-->
     <include
         android:id="@+id/topBar"
-        layout="@layout/top_bar_manage_employees"/>
+        layout="@layout/top_bar_manage_employees_bookings"/>
 
     <!--Date Filter-->
     <Button

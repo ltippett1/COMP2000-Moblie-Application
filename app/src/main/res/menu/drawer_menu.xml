@@ -9,6 +9,16 @@
         android:id="@+id/nav_view_bookings"
         android:title="View Booked Rooms"/>
 
+    <!--Manager only pages-->
+    <item
+        android:id="@+id/nav_manage_bookings"
+        android:title="Manage Employee Bookings"/>
+
+    <item
+        android:id="@+id/nav_room_availability"
+        android:title="Room Availability"/>
+
+    <!--Logout-->
     <item
         android:id="@+id/nav_logout"
         android:title="Logout"/>
